@@ -1,7 +1,7 @@
 {
-  "name": "chouqian-shuzi-native",
+  "name": "chouqian-shuzi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Program to randomly pull a number",
   "main": "src/main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -28,7 +28,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "chouqian_shuzi_native"
+            "name": "chouqian_shuzi"
           }
         },
         {
