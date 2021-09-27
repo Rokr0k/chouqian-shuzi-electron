@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>韩国数码媒体高等学校</h1>
+        </header>
+        <hr>
+        <div id="mode1" style="display: block;">
+            <input type="number" class="text-input" id="min" placeholder="最小" value="1">
+            <input type="number" class="text-input" id="max" placeholder="最大" value="35">
+            <input type="text" class="text-input" id="excpt" placeholder="例外">
+            <input type="button" class="button-input" id="roll1" value="抽签">
+        </div>
+        <div id="mode2" style="display: none;">
+            <input type="text" class="text-input" id="select">
+            <input type="button" class="button-input" id="roll2" value="抽签">
+        </div>
+        <hr>
+        <input type="button" class="button-input" id="mode" value="更改状态">
+        <div id="banner"></div>
+        <div id="number-viewer"></div>
+        <div style="position: fixed; right: 0; bottom: 0; opacity: 50%; font-size: 50px; color: white; cursor: default; user-select: none;">Rokr0k &copy; 2021</div>
+        <script src="../js/script.js"></script>
+    </body>
+</html>
